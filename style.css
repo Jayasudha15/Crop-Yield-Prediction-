@@ -1,0 +1,109 @@
+/* =================================== */
+/* === GLOBAL STYLES (ALL PAGES) === */
+/* =================================== */
+
+/* --- Professional Sidebar --- */
+[data-testid="stSidebar"] {
+    background-color: #1F2937 !important;
+    border-right: 3px solid #00b09b !important;
+}
+[data-testid="stSidebar"] * {
+    color: #FFFFFF !important;
+    font-size: 1.2rem !important;
+    font-weight: 700 !important;
+}
+[data-testid="stSidebar"] .stButton button {
+    background-color: #374151 !important;
+    border: 2px solid #00b09b !important;
+}
+
+/* === Global Font Styling === */
+html, body, p, li, label, .stMarkdown, .stDataFrame, div[data-testid="stMetric"], [data-testid="stWidgetLabel"] label,
+.stTextInput input, .stNumberInput input, .stSelectbox div[data-baseweb="select"] > div {
+    font-size: 1.6rem !important;     /* Larger text */
+    font-weight: 700 !important;      /* Bold */
+    font-family: 'Segoe UI', Arial, sans-serif !important; /* Clean corporate font */
+    color: #1E2A38 !important;
+}
+
+/* Headings */
+h1 { font-size: 4.5rem !important; font-weight: 800 !important; text-align: center; }
+h2 { font-size: 3.2rem !important; font-weight: 700 !important; }
+h3 { font-size: 2.5rem !important; font-weight: 700 !important; }
+
+/* Keep glass-box text normal weight for readability */
+.glass-box * {
+    font-weight: 500 !important;
+}
+
+/* Buttons */
+.stButton > button {
+    width: 100%;
+    background: linear-gradient(to right, #00b09b, #28a745);
+    color: white !important;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    padding: 1rem 1.5rem !important;
+    font-size: 1.5rem !important;
+}
+
+/* ================================================== */
+/* === CONTAINER STYLES (Used on different pages) === */
+/* ================================================== */
+
+/* Standard container */
+.content-wrapper {
+    padding: 2rem 3rem;
+    border-radius: 20px;
+}
+
+/* Glass box */
+.glass-box {
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 2rem 3rem;
+    margin-bottom: 2rem;
+}
+
+/* Prediction result box */
+.result-box {
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    border-left: 8px solid #28a745;
+    margin-top: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.result-box .yield-value {
+    font-size: 2.5rem !important;
+    font-weight: 800;
+    color: #00b09b !important;
+}
+.glass-box-title {
+    font-size: 2.8rem !important;        
+    font-weight: 700 !important;
+    color: #1E2A38 !important;
+    white-space: nowrap;
+    text-align: center;
+    display: block;
+}
+.result-box {
+    background-color: #FFFFFF;
+    padding: 30px 40px;
+    border-radius: 16px;
+    text-align: center;
+    border-left: 8px solid #28a745;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 6px 24px rgba(46,139,87,0.09);
+}
+.result-box .yield-value {
+    font-size: 2.6rem !important;
+    font-weight: 800;
+    color: #00b09b !important;
+}
