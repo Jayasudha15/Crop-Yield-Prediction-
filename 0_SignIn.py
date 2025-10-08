@@ -10,7 +10,7 @@ st.set_page_config(page_title="Sign In", page_icon="🔒", layout="wide")
 
 # Redirect if already logged in
 if "logged_in" in st.session_state and st.session_state["logged_in"]:
-    st.switch_page("pages/1_Home.py")
+    st.switch_page("pages/2_Home.py")
 
 # Apply background
 apply_styles('assets/login_bg.png')
